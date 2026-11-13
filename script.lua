@@ -263,13 +263,13 @@ local scriptBox = SettingsTab:AddLeftGroupbox("Script")
 -- Info tab
 infoBox:AddLabel("BSSLarp")
 infoBox:AddLabel("Version: 1.0.0")
-infoBox:AddLabel("Made for Roblox")
+infoBox:AddLabel("Made by envqy")
 
 discordBox:AddButton({
     Text = "Copy Discord Invite",
     Func = function()
         if setclipboard then
-            setclipboard("https://discord.gg/") -- TODO: put your real invite here
+            setclipboard("https://discord.gg/jXKfrHYmGX")
         end
     end,
     DoubleClick = false
